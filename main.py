@@ -53,7 +53,7 @@ while True:
     # Deteccion de la colision con el otro cuadrado
     if cuadro01.colliderect(cuadro02):
         # Muestra coordenadas en consola
-        print(f'COLISION!!! en coordenada {posX01} : {posY01}')
+        #print(f'COLISION!!! en coordenada {posX01} : {posY01}')
         # Muestra coordenadas en ventana
         cadena01 = (f'COLISION!!! en coordenada {posX01} : {posY01}')
         texto01 = fuente.render(cadena01, True, colorTexto)
