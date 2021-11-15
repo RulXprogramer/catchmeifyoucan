@@ -10,7 +10,7 @@ pygame.init()
 ventana = pygame.display.set_mode((500, 400))
 
 # Se le asigna nombre a la ventana
-pygame.display.set_caption("Space Wars")
+pygame.display.set_caption("Catch me if you can")
 
 # Se crea variable que contendra el color de fondo de la ventana
 colorFondo = (1, 10, 70)
